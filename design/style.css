@@ -86,6 +86,8 @@ img {
 
 }
 
+/*===BUTTONS===*/
+
 .button {
    border: none;
    border-radius: 20px;
@@ -99,7 +101,6 @@ img {
 #button1 {
    color: var(--primaria1);
 }
-
 #button1:active {
    background-color: var(--primaria1);
    color: var(--neutra2);
@@ -109,7 +110,6 @@ img {
 #button2 {
    color: var(--primaria2);
 }
-
 #button2:active {
    background-color: var(--primaria2);
    color: var(--neutra2);
@@ -119,7 +119,6 @@ img {
 #button3 {
    color: var(--primaria3);
 }
-
 #button3:active {
    background-color: var(--primaria3);
    color: var(--neutra2);
