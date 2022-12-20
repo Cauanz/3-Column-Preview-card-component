@@ -93,18 +93,37 @@ img {
    width: 120px;
    font-family: var(--fontnormal);
    margin-top: 70px;
+   cursor: pointer;
 }
 
 #button1 {
    color: var(--primaria1);
 }
 
+#button1:active {
+   background-color: var(--primaria1);
+   color: var(--neutra2);
+   border: 2px solid var(--neutra2);
+}
+
 #button2 {
    color: var(--primaria2);
 }
 
+#button2:active {
+   background-color: var(--primaria2);
+   color: var(--neutra2);
+   border: 2px solid var(--neutra2);
+}
+
 #button3 {
    color: var(--primaria3);
+}
+
+#button3:active {
+   background-color: var(--primaria3);
+   color: var(--neutra2);
+   border: 2px solid var(--neutra2);
 }
 
 .attribution { font-size: 11px; text-align: center; }
