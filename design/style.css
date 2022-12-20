@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+   --primaria1: hsl(31, 77%, 52%);
+   --primaria2: hsl(184, 100%, 22%);
+   --primaria3: hsl(179, 100%, 13%);
+   --neutra1/*paragrafo*/: hsla(0, 0%, 100%, 0.75);
+   --neutra2/*background, titulos, buttons*/: hsl(0, 0%, 95%);
+   --fontgrande: 'Big Shoulders Display', cursive;
+   --fontnormal: 'Lexend Deca', sans-serif;
+
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+}
+
+body {
+   position: absolute;
+   height: 100vh;
+   width: 100vw;
+}
+
+.caixas {
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.caixa {
+   height: 420px;
+   width: 250px;
+}
+
+#caixa1 {
+   background-color: var(--primaria1);
+   border-radius: 7px 0px 0px 7px ;
+}
+
+#caixa2 {
+   background-color: var(--primaria2);
+}
+
+#caixa3 {
+   background-color: var(--primaria3);
+   border-radius: 0px 7px 7px 0px ;
+}
+
+h2 {
+   font-family: var(--fontgrande);
+   color: var(--neutra2);
+   font-size: 34px;
+}
+
+p {
+   font-family: var(--fontnormal);
+   color: var(--neutra1);
+}
+
+#sedans {
+   margin: 0 30px;
+}
+
+#suvs {
+   margin: 0 30px;
+}
+
+#luxury {
+   margin: 0 30px;
+}
+
+img {
+   margin-top: 50px;
+   width: 27%;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
