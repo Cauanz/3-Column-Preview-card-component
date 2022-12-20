@@ -55,17 +55,22 @@ h2 {
    font-family: var(--fontgrande);
    color: var(--neutra2);
    font-size: 34px;
+   margin-top: 30px
 }
 
 p {
    font-family: var(--fontnormal);
    color: var(--neutra1);
+   font-size: 76%;
+   margin-top: 15%;
+   line-height: 170%;
 }
 
-#sedans {
-   margin: 0 30px;
+#content {
+   margin: 0 40px;
 }
 
+/*
 #suvs {
    margin: 0 30px;
 }
@@ -73,13 +78,34 @@ p {
 #luxury {
    margin: 0 30px;
 }
+*/
 
 img {
-   margin-top: 50px;
-   width: 27%;
+   margin-top: 30px;
+   width: 30%;
+
 }
 
+.button {
+   border: none;
+   border-radius: 20px;
+   height: 40px;
+   width: 120px;
+   font-family: var(--fontnormal);
+   margin-top: 70px;
+}
 
+#button1 {
+   color: var(--primaria1);
+}
+
+#button2 {
+   color: var(--primaria2);
+}
+
+#button3 {
+   color: var(--primaria3);
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
