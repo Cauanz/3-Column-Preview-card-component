@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-This is my solution to the challenge
+[This](https://cauanz.github.io/3-Column-Preview-card-component/) is my solution to the challenge
 
 Thanks for checking out this front-end coding challenge.
 
