@@ -1,11 +1,12 @@
 
-@media screen and (max-width: 375px) and (orientation: portrait){
+@media screen and (max-width: 450px) and (orientation: portrait){
    .caixas {
       flex-wrap: wrap;
-      display: inline-flex;
-      top: 0;
-      left: 0;
-      transform: translate(0, 0);
+      display: flex;
+   }
+
+   body {
+      height: auto;
    }
 
    #caixa1 {
